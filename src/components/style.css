@@ -1,0 +1,161 @@
+.project-modal {
+    background-color: #397f93;
+    padding: 2px;
+    border-radius: 8px;
+    border-color: #397f93;
+    z-index: 50;
+}
+
+.project-modal-body {
+    min-width: 640px;
+    min-height: 640px;
+    height: 640px;
+    background-color: #2A2A39;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background-color: #020202;
+    color: white;
+    padding: 24px;
+}
+
+.content-box {
+    margin-top: 16px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.left-box {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding-top: 30px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: #4AE6FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4AE6FF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.circle.active {
+    background-color: #4AE6FF;
+    color: #0B1719;
+}
+
+.virtical-line {
+    width: 2px;
+    height: 100px;
+    background-color: #4AE6FF;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.right-box {
+    width: 70%;
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.lbl-step {
+    color: #4AE6FF;
+    font-weight: bold;
+}
+
+.form-box {
+    text-align: left;
+}
+
+.floor-plans-box {
+    height: 340px;
+    overflow-y: auto;
+}
+
+.input-row {
+    display: flex;
+}
+
+.input-row > div {
+    flex: 1;
+    text-align: left;
+    margin-top: 16px;
+}
+
+.btn-p {
+    background-color: #EF0098;
+    width: calc(50% - 4px);
+}
+
+.btn-file {
+    width: 50%;
+    height: 100%;
+    background-color: #EF0098;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-file-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-file-input {
+    display: none;
+}
+
+.btn-file:hover {
+    background-color: #EF009880;
+    cursor: pointer;
+}
+
+.box-done {
+    color: #EF0098;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-view {
+    width: 70%;
+    height: 360px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.ml-4 {
+    margin-left: 4px;
+}
+
+.ml-8 {
+    margin-left: 8px;
+}
+
+.mr-4 {
+    margin-right: 4px;
+}
